@@ -34,12 +34,6 @@ export default perlinNoise3d = (function() {
 
     Noise.prototype = {
 
-      noiseDetail: function(lod, falloff) {
-        if (lod>0)     { this.perlin_octaves = lod; }
-        if (falloff>0) { this.perlin_amp_falloff = falloff; }
-        return this;
-      },
-
       noiseSeed: function(seed) {
 
         // Linear Congruential Generator
