@@ -2,15 +2,20 @@
 
 3D Perlin Noise as JavasScript module adapted from the original algorithm implemented by **Ken Perlin** on [mrl.nyu.edu/~perlin/noise](https://mrl.nyu.edu/~perlin/noise/) from the [SIGGRAPH 2002 paper](http://mrl.nyu.edu/~perlin/paper445.pdf).
 
-This is based on the previous adapting done by **Rune Madsen** on [rune.noise.js](https://github.com/runemadsen/rune.noise.js), which was an adaptation from [P5.js](https://github.com/processing/p5.js/blob/master/src/math/noise.js) done by **Daniel Shiffman**, which was an adaptation from [Processing / PApplet.java](https://github.com/processing/processing/blob/master/core/src/processing/core/PApplet.java) done by **Ben Fry**, which was an adaptation contributed by **Karsten Schmidt** aka **toxi** adapted from the german demo group **farbrausch** code as it was used in their demo *"art"* (~~http://www.farb-rausch.de/fr010src.zip~~, *dead link!*). — **Props to all of them!**
+This is based on the previous adapting done by **Rune Madsen** on [rune.noise.js](https://github.com/runemadsen/rune.noise.js), which was an adaptation from [P5.js](https://github.com/processing/p5.js/blob/master/src/math/noise.js) done by **Daniel Shiffman**, which was an adaptation from [Processing / PApplet.java](https://github.com/processing/processing/blob/master/core/src/processing/core/PApplet.java) done by **Ben Fry**, which was an adaptation contributed by **Karsten Schmidt** aka **toxi** adapted from the german demo group **farbrausch** code as it was used in their demo "*art*" (~~http://www.farb-rausch.de/fr010src.zip~~, *dead link!*). — **Props to all of them!**
+
 
 
 ## Install
 
-Include the minified file
+```sh
+$ npm install chain-timeout
+```
+
+Include the minified file ( `dist/perlin-noise-3d.min.js` ) or you can also add the script directly from [unpkg](https://unpkg.com/perlin-noise-3d).
 
 ```html
-<script src="path/to/module/dist/perlin-noise-3d.min.js"></script>
+<script src="https://unpkg.com/perlin-noise-3d"></script>
 ```
 
 ## Usage
