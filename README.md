@@ -1,18 +1,38 @@
 # perlin-noise-3d
 
+[![NPM Version](https://img.shields.io/npm/v/perlin-noise-3d.svg)](https://www.npmjs.com/package/perlin-noise-3d) [![gzip File Size](http://img.badgesize.io/https://unpkg.com/perlin-noise-3d/dist/perlin-noise-3d.min.js?compression=gzip)](https://unpkg.com/perlin-noise-3d/dist/perlin-noise-3d.min.js)
+
 3D Perlin Noise as JavasScript module adapted from the original algorithm implemented by **Ken Perlin** on [mrl.nyu.edu/~perlin/noise](https://mrl.nyu.edu/~perlin/noise/) from the [SIGGRAPH 2002 paper](http://mrl.nyu.edu/~perlin/paper445.pdf).
 
 This is based on the previous adapting done by **Rune Madsen** on [rune.noise.js](https://github.com/runemadsen/rune.noise.js), which was an adaptation from [P5.js](https://github.com/processing/p5.js/blob/master/src/math/noise.js) done by **Daniel Shiffman**, which was an adaptation from [Processing / PApplet.java](https://github.com/processing/processing/blob/master/core/src/processing/core/PApplet.java) done by **Ben Fry**, which was an adaptation contributed by **Karsten Schmidt** aka **toxi** adapted from the german demo group **farbrausch** code as it was used in their demo "*art*" (~~http://www.farb-rausch.de/fr010src.zip~~, *dead link!*). — **Props to all of them!**
 
-
+---
 
 ## Install
 
 ```sh
-$ npm install chain-timeout
+$ npm install perlin-noise-3d
 ```
 
-Include the minified file ( `dist/perlin-noise-3d.min.js` ) or you can also add the script directly from [unpkg](https://unpkg.com/perlin-noise-3d).
+The module will be available in three files:
+
+| Use           | Location      |
+| ------------- | ------------- |
+| **ES Module** | `dist/perlin-noise-3d.mjs`      |
+| **CommonJS**  | `dist/perlin-noise-3d.js`       |
+| **UMD**       | `dist/perlin-noise-3d.min.js`   |
+
+Include `perlin-noise-3d`:
+
+```javascript
+// ES6
+import perlinNoise3d from 'perlin-noise-3d'
+
+// CJS
+const perlinNoise3d = require('perlin-noise-3d');
+```
+
+Include the minified UMD file for the browser ( `dist/perlin-noise-3d.min.js` ) or you can add the script directly from [unpkg](https://unpkg.com/perlin-noise-3d).
 
 ```html
 <script src="https://unpkg.com/perlin-noise-3d"></script>
