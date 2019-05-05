@@ -11,7 +11,8 @@
     "src"
   ],
   "scripts": {
-    "build": "microbundle --name perlinNoise3d --format umd --sourcemap false"
+    "build": "microbundle --name perlinNoise3d --format umd --sourcemap false",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
