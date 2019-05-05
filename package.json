@@ -4,6 +4,7 @@
   "description": "3D Perlin Noise",
   "main": "dist/perlin-noise-3d.js",
   "umd:main": "dist/perlin-noise-3d.min.js",
+  "module": "dist/perlin-noise-3d.mjs",
   "unpkg": "dist/perlin-noise-3d.min.js",
   "source": "src/index.js",
   "files": [
@@ -11,7 +12,7 @@
     "src"
   ],
   "scripts": {
-    "build": "microbundle --name perlinNoise3d --format umd --sourcemap false",
+    "build": "microbundle --name perlinNoise3d --format es,cjs,umd --sourcemap false",
     "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
