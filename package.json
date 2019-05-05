@@ -4,6 +4,7 @@
   "description": "3D Perlin Noise",
   "main": "dist/perlin-noise-3d.js",
   "umd:main": "dist/perlin-noise-3d.min.js",
+  "unpkg": "dist/perlin-noise-3d.min.js",
   "source": "src/index.js",
   "files": [
     "dist",
@@ -12,12 +13,20 @@
   "scripts": {
     "build": "microbundle --name perlinNoise3d --format umd --sourcemap false"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alterebro/perlin-noise-3d.git"
+  },
   "keywords": [
     "perlin",
     "noise",
     "perlin-noise",
     "3d"
   ],
+  "bugs": {
+    "url": "https://github.com/alterebro/perlin-noise-3d/issues"
+  },
+  "homepage": "https://github.com/alterebro/perlin-noise-3d#readme",
   "devDependencies": {
     "microbundle": "^0.11.0"
   }
