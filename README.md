@@ -1,10 +1,12 @@
+<p><img src="perlin-noise.jpg" alt="Perlin Noise" width="300" /></p>
+
 # perlin-noise-3d
 
-[![NPM Version](https://img.shields.io/npm/v/perlin-noise-3d.svg)](https://www.npmjs.com/package/perlin-noise-3d) [![gzip File Size](http://img.badgesize.io/https://unpkg.com/perlin-noise-3d/dist/perlin-noise-3d.min.js?compression=gzip)](https://unpkg.com/perlin-noise-3d/dist/perlin-noise-3d.min.js)
+[![NPM Version](https://img.shields.io/npm/v/perlin-noise-3d.svg)](https://www.npmjs.com/package/perlin-noise-3d) [![gzip File Size](https://img.badgesize.io/https://unpkg.com/perlin-noise-3d/dist/perlin-noise-3d.min.js?compression=gzip)](https://unpkg.com/perlin-noise-3d/dist/perlin-noise-3d.min.js)
 
-3D Perlin Noise as JavasScript module adapted from the original algorithm implemented by **Ken Perlin** on [mrl.nyu.edu/~perlin/noise](https://mrl.nyu.edu/~perlin/noise/) from the [SIGGRAPH 2002 paper](http://mrl.nyu.edu/~perlin/paper445.pdf).
+3D [Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise) as JavasScript module adapted from the original algorithm implemented by **Ken Perlin** on [mrl.nyu.edu/~perlin/noise](https://mrl.nyu.edu/~perlin/noise/) from the [SIGGRAPH 2002 paper](http://mrl.nyu.edu/~perlin/paper445.pdf).
 
-This is based on the previous adapting done by **Rune Madsen** on [rune.noise.js](https://github.com/runemadsen/rune.noise.js), which was an adaptation from [P5.js](https://github.com/processing/p5.js/blob/master/src/math/noise.js) done by **Daniel Shiffman**, which was an adaptation from [Processing / PApplet.java](https://github.com/processing/processing/blob/master/core/src/processing/core/PApplet.java) done by **Ben Fry**, which was an adaptation contributed by **Karsten Schmidt** aka **toxi** adapted from the german demo group **farbrausch** code as it was used in their demo "*art*" (~~http://www.farb-rausch.de/fr010src.zip~~, *dead link!*). — **Props to all of them!**
+This is based on the previous adapting done by **Rune Madsen** on [rune.noise.js](https://github.com/runemadsen/rune.noise.js), which was an adaptation from [P5.js](https://github.com/processing/p5.js/blob/master/src/math/noise.js) done by **Daniel Shiffman**, which was an adaptation from [Processing / PApplet.java](https://github.com/processing/processing/blob/master/core/src/processing/core/PApplet.java) done by **Ben Fry**, which was an adaptation contributed by **Karsten Schmidt** aka **toxi** adapted from the code created by the german demoscene group **farbrausch** as it was used on their demo "*art*" (~~http://www.farb-rausch.de/fr010src.zip~~, *dead link!*). — **Props to all of them adaptors!**
 
 ---
 
