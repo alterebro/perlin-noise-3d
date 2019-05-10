@@ -6,7 +6,7 @@
 
 3D [Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise) as JavasScript module adapted from the original algorithm implemented by **Ken Perlin** on [mrl.nyu.edu/~perlin/noise](https://mrl.nyu.edu/~perlin/noise/) from the [SIGGRAPH 2002 paper](http://mrl.nyu.edu/~perlin/paper445.pdf).
 
-This is based on the previous adapting done by **Rune Madsen** on [rune.noise.js](https://github.com/runemadsen/rune.noise.js), which was an adaptation from [P5.js](https://github.com/processing/p5.js/blob/master/src/math/noise.js) done by **Daniel Shiffman**, which was an adaptation from [Processing / PApplet.java](https://github.com/processing/processing/blob/master/core/src/processing/core/PApplet.java) done by **Ben Fry**, which was an adaptation contributed by **Karsten Schmidt** aka **toxi** adapted from the code created by the german demoscene group **farbrausch** as it was used on their demo "*art*" (~~http://www.farb-rausch.de/fr010src.zip~~, *dead link!*). — **Props to all of them adaptors!**
+This is based on the previous adapting done by **Rune Madsen** on [rune.noise.js](https://github.com/runemadsen/rune.noise.js), which was an adaptation from [P5.js](https://github.com/processing/p5.js/blob/master/src/math/noise.js) done by **Daniel Shiffman**, which was an adaptation from [Processing / PApplet.java](https://github.com/processing/processing/blob/master/core/src/processing/core/PApplet.java) done by **Ben Fry**, which was an adaptation from the contributions by **Karsten Schmidt** aka **toxi** adapting the code created by the German demo scene group **Farbrausch** on their demo production "*art*" ( [fr010src.zip@files.scene.org](https://files.scene.org/view/resources/code/sources/fr010src.zip) ) adapted from the original work by **Ken Perlin**.  — **Props to all of them adaptors!**
 
 ---
 
@@ -16,13 +16,11 @@ This is based on the previous adapting done by **Rune Madsen** on [rune.noise.js
 $ npm install perlin-noise-3d
 ```
 
-The module will be available in three files:
+There are two available files for this module:
 
-| Use           | Location      |
-| ------------- | ------------- |
-| **ES Module** | `dist/perlin-noise-3d.mjs`      |
-| **CommonJS**  | `dist/perlin-noise-3d.js`       |
-| **UMD**       | `dist/perlin-noise-3d.min.js`   |
+- `dist/perlin-noise-3d.js` &rsaquo; CommonJS &amp; ES Module
+- `dist/perlin-noise-3d.min.js` &rsaquo; UMD
+
 
 Include `perlin-noise-3d`:
 
