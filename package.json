@@ -1,6 +1,6 @@
 {
   "name": "perlin-noise-3d",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "3D Perlin Noise",
   "main": "dist/perlin-noise-3d.js",
   "umd:main": "dist/perlin-noise-3d.min.js",
