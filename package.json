@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/alterebro/perlin-noise-3d#readme",
   "devDependencies": {
-    "microbundle": "^0.12.0"
+    "microbundle": "^0.15.1"
   }
 }
